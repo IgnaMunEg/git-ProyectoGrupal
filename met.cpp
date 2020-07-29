@@ -5,11 +5,11 @@
 #include<locale.h>
 
 
-void Burbuja(int N,int vector[]);
-void Insercion(int N,int vector[]);
-void Seleccion(int N,int vector[]);
-void QuickSort(int N,int vector[]);
-void MergeSort(int N,int vector[]);
+//void Burbuja(int N,int vector[]);
+//void Insercion(int N,int vector[]);
+//void Seleccion(int N,int vector[]);
+//void QuickSort(int N,int vector[]);
+//void MergeSort(int N,int vector[]);
 
 
 main(){
@@ -45,23 +45,23 @@ main(){
 	switch(metOrden){
 		
 		case 1:
-			Burbuja(N,vector);
+//			Burbuja(N,vector);
 			break;
 		
 		case 2:
-			Insercion(N,vector);
+//			Insercion(N,vector);
 			break;
 		
 		case 3:
-			Seleccion(N,vector);
+//			Seleccion(N,vector);
 			break;
 			
 		case 4:
-			QuickSort(N,vector);
+//			QuickSort(N,vector);
 			break;
 			
 		case 5:
-			MergeSort(N,vector);
+//			MergeSort(N,vector);
 			break;
 		
 		default:
